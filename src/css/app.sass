@@ -1,0 +1,93 @@
+// app global css in Sass form
+.filter-class
+  border: 1px solid #8E8E8E
+  color: #8E8E8E
+  border-radius: 8px
+
+.filter-class-active
+  border: 1px solid #024830
+  color: #024830
+  border-radius: 8px
+
+.border-dash
+  background: #024830
+  border: 3px dashed #FFBB16
+  border-radius: 100000px
+
+.shadow
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.25)
+  border-radius: 16px
+
+.border-shadow
+  background: #FFFFFF
+  border: 1px solid #D9D9D9
+  border-radius: 4px
+
+.border
+  border: 1px solid #8E8E8E
+  border-radius: 16px
+
+.main-page
+  background-color: #EFF0F5
+
+.card-menu
+  background: #FFFFFF
+  border: 1px solid #DADEDE
+  border-radius: 16px
+
+.menu-active
+  background-color: $primary
+  // opacity: 0.4
+.menu-active .q-item__label
+  color: white !important
+.menu-active .q-icon
+  color: white !important
+
+#outer-circle
+  background: rgba(2, 72, 48, 0.55)
+  border-radius: 50%
+  height:96px
+  width:96px
+
+#inner-circle
+  position: relative
+  background: rgba(2, 72, 48, 0.55)
+  border-radius: 50%
+  height:72px
+  width:72px
+  margin: 24px 0px 0px 12px
+
+
+.GPL
+  &__toolbar
+    height: 64px
+  &__toolbar-input
+    width: 35%
+  &__drawer-item
+    line-height: 24px
+    border-radius: 0 24px 24px 0
+    margin-right: 12px
+    .q-item__section--avatar
+      padding-left: 12px
+      .q-icon
+        color: #5f6368
+    .q-item__label:not(.q-item__label--caption)
+      color: #3c4043
+      letter-spacing: .01785714em
+      font-size: .875rem
+      font-weight: 500
+      line-height: 1.25rem
+    &--storage
+      border-radius: 0
+      margin-right: 0
+      padding-top: 24px
+      padding-bottom: 24px
+  &__side-btn
+    &__label
+      font-size: 12px
+      line-height: 24px
+      letter-spacing: .01785714em
+      font-weight: 500
+  @media (min-width: 1024px)
+    &__page-container
+      padding-left: 94px
